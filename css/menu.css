@@ -1,0 +1,23 @@
+.menu {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   transform: translateX(-100%);
+   transition: transform 300ms linear;
+}
+
+.menu_open {
+   transform: translateX(0);
+}
+
+.menu-item {
+   padding: 20px 15px;
+   border: 1px solid #747c8130;
+}
+
+.menu-item-action {
+   color: #747c81;
+   text-transform: uppercase;
+   font-size: 12px;
+}
